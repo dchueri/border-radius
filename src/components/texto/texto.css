@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,900&display=swap");
+
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+header {
+  background: var(--color-bg);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 20%;
+  justify-content: center;
+  z-index: 2;
+}
+
+h1 {
+  padding-top: 1em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-variant-caps:titling-caps;
+  transition: 1500ms;
+  cursor:default;
+}
+
+h1:hover {
+  color: var(--color-white);
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background: var(--color-bg);
+}
+
+.valores {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.valores-esquerda {
+  margin: 0 0.4em 0 0;
+  display: grid;
+  grid-template-rows: max-content;
+  align-content: center;
+  gap: 15.5em;
+}
+
+.valores-direita {
+  margin: 0 0 0 0.4em;
+  display: grid;
+  grid-template-rows: max-content;
+  align-content: center;
+  gap: 15.5em;
+}
+
+.valor1,
+.valor2 {
+  width: fit-content;
+  z-index: 1;
+}
+
+input {
+  width: 3em;
+  height: 1.5em;
+  color: var(--color-white);
+  background-color: var(--color-bg-variant);
+  border: 0;
+  text-align: center;
+  box-shadow: 0.2em 0.2em 0.4em black;
+  border-radius: 15%;
+  font-family: "Poppins", sans-serif;
+}
+
+input:focus {
+  border: 0 none;
+  outline: 0;
+}
+
+.texto {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.texto > .retangulo {
+  width: 40em;
+  height: 25em;
+  border: 0.1em solid;
+  border-color: var(--color-primary);
+  background: var(--color-bg-variant);
+  box-shadow: 0.4em 0.4em 1em black;
+}
+
+.resultado {
+  position: absolute;
+  color: var(--color-white);
+  font-family: "Poppins", sans-serif;
+}
+
+.resultado > p {
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
