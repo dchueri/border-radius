@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/border-radius/static/css/main.228c9e10.css",
+    "main.js": "/border-radius/static/js/main.06edf9ff.js",
+    "index.html": "/border-radius/index.html",
+    "main.228c9e10.css.map": "/border-radius/static/css/main.228c9e10.css.map",
+    "main.06edf9ff.js.map": "/border-radius/static/js/main.06edf9ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.228c9e10.css",
+    "static/js/main.06edf9ff.js"
+  ]
+}
