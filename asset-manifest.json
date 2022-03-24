@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/border-radius/static/css/main.228c9e10.css",
-    "main.js": "/border-radius/static/js/main.06edf9ff.js",
+    "main.css": "/border-radius/static/css/main.23dbb734.css",
+    "main.js": "/border-radius/static/js/main.e14b3d05.js",
     "index.html": "/border-radius/index.html",
-    "main.228c9e10.css.map": "/border-radius/static/css/main.228c9e10.css.map",
-    "main.06edf9ff.js.map": "/border-radius/static/js/main.06edf9ff.js.map"
+    "main.23dbb734.css.map": "/border-radius/static/css/main.23dbb734.css.map",
+    "main.e14b3d05.js.map": "/border-radius/static/js/main.e14b3d05.js.map"
   },
   "entrypoints": [
-    "static/css/main.228c9e10.css",
-    "static/js/main.06edf9ff.js"
+    "static/css/main.23dbb734.css",
+    "static/js/main.e14b3d05.js"
   ]
 }
