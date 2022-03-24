@@ -23,7 +23,7 @@ const CopiaResultado = (props) => {
   return (
     <div className="botao" onClick={copiaOResultado}>
       <FaRegCopy/>
-      <p>Copiar o resultado</p>
+      <p>Copy</p>
     </div>
   );
 };

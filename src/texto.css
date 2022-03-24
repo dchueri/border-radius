@@ -157,6 +157,10 @@ input[type="number"]::-webkit-inner-spin-button {
   font-weight: 100;
 }
 
+.botao > p {
+  font-size: 1em;
+}
+
 .botao:hover {
   color: var(--color-white);
 }
@@ -179,7 +183,6 @@ input[type="number"]::-webkit-inner-spin-button {
     text-align: center;
     box-shadow: 0.2em 0.2em 0.4em black;
     border-radius: 15%;
-    font-family: "Poppins", sans-serif;
   }
 
   .valores-esquerda {
@@ -194,7 +197,6 @@ input[type="number"]::-webkit-inner-spin-button {
     position: absolute;
     color: var(--color-white);
     font-family: "Poppins", sans-serif;
-    
   }
 }
 

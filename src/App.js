@@ -1,4 +1,4 @@
-import Texto from "./components/texto/Texto";
+import Texto from "./components/Texto";
 
 function App() {
   return (

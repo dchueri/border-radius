@@ -2,7 +2,7 @@ import { useState } from "react";
 import CopiaResultado from "./CopiaResultado";
 import Resultado from "./Resultado";
 import Retangulo from "./Retangulo";
-import "./texto.css";
+import "../texto.css";
 import Valores from "./Valores";
 
 export default function Texto() {
