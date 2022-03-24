@@ -11,8 +11,8 @@ const Resultado = (props) => {
     const gabarito = [
       `border-top-left-radius: ${valores[0]}%;`,
       `border-top-right-radius: ${valores[1]}%;`,
-      `border-bottom-right-radius ${valores[2]}%;`,
-      `border-bottom-left-radius ${valores[3]}%;`,
+      `border-bottom-right-radius: ${valores[2]}%;`,
+      `border-bottom-left-radius: ${valores[3]}%;`,
     ];
     const resultado = [];
     for (let i = 0; i < valores.length; i++) {

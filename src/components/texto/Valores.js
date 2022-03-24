@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
 export default class Valores extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     if (this.props.lado === "esquerda") {
       return (
@@ -15,7 +11,7 @@ export default class Valores extends Component {
                 type="number"
                 defaultValue="0"
                 onChange={(event) => {
-                  if (event.target.value == "") {
+                  if (event.target.value === "") {
                     this.props.alteraValor1("0");
                   } else {
                     this.props.alteraValor1(event.target.value);
@@ -28,7 +24,7 @@ export default class Valores extends Component {
                 type="number"
                 defaultValue="0"
                 onChange={(event) => {
-                  if (event.target.value == "") {
+                  if (event.target.value === "") {
                     this.props.alteraValor4("0");
                   } else {
                     this.props.alteraValor4(event.target.value);
@@ -47,7 +43,7 @@ export default class Valores extends Component {
               type="number"
               defaultValue="0"
               onChange={(event) => {
-                if (event.target.value == "") {
+                if (event.target.value === "") {
                   this.props.alteraValor2("0");
                 } else {
                   this.props.alteraValor2(event.target.value);
@@ -60,7 +56,7 @@ export default class Valores extends Component {
               type="number"
               defaultValue="0"
               onChange={(event) => {
-                if (event.target.value == "") {
+                if (event.target.value === "") {
                   this.props.alteraValor3("0");
                 } else {
                   this.props.alteraValor3(event.target.value);

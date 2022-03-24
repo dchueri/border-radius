@@ -1,4 +1,5 @@
 import { useState } from "react";
+import CopiaResultado from "./CopiaResultado";
 import Resultado from "./Resultado";
 import Retangulo from "./Retangulo";
 import "./texto.css";
@@ -52,6 +53,12 @@ export default function Texto() {
             borderRadiusBaiEsq={valor4}
           />
         </div>
+        <CopiaResultado className="botao-copia"
+          borderRadiusTopEsq={valor1}
+          borderRadiusTopDir={valor2}
+          borderRadiusBaiDir={valor3}
+          borderRadiusBaiEsq={valor4}
+        />
       </body>
     </>
   );

@@ -1,20 +1,21 @@
 import React, { Component } from "react";
+import CopiaResultado from "./CopiaResultado";
 
 export default class Retangulo extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
+    const valor1 = this.props.borderRadiusTopEsq;
+    const valor2 = this.props.borderRadiusTopDir;
+    const valor3 = this.props.borderRadiusBaiDir;
+    const valor4 = this.props.borderRadiusBaiEsq;
     return (
       <div className="texto">
         <div
           className="retangulo"
           style={{
-            borderTopLeftRadius: `${this.props.borderRadiusTopEsq}%`,
-            borderBottomLeftRadius: `${this.props.borderRadiusBaiEsq}%`,
-            borderTopRightRadius: `${this.props.borderRadiusTopDir}%`,
-            borderBottomRightRadius: `${this.props.borderRadiusBaiDir}%`,
+            borderTopLeftRadius: `${valor1}%`,
+            borderBottomRightRadius: `${valor2}%`,
+            borderTopRightRadius: `${valor3}%`,
+            borderBottomLeftRadius: `${valor4}%`,
           }}
         ></div>
       </div>
